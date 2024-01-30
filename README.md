@@ -15,15 +15,18 @@ This is a project related to electric vehicles range estimation. This module is 
 To start the publisher node, use the following command:
 ```bash
 ros2 run range_estimation publisher
+```
 
 ### Running the Subscriber
 To start the subscriber node, use the following command:
+```bash
 ros2 run range_estimation subscriber
-
+```
 
 
 ## Citation
 Find the related published conference paper [here](https://ieeexplore.ieee.org/abstract/document/9066042).
+
 ```
 @inproceedings{amirkhani2019electric,
   title={Electric Vehicles Driving Range and Energy Consumption Investigation: A Comparative 
