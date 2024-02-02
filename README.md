@@ -12,9 +12,9 @@ This is a project related to electric vehicles range estimation. This module is 
 ## Usage
 
 ### Running the Publisher
-To start the publisher node, use the following command:
+To play rosbag, use the following command:
 ```bash
-ros2 run range_estimation publisher
+ros2 bag play rosbag2_2024_01_28-18_04_12_0.db3
 ```
 
 ### Running the Subscriber
